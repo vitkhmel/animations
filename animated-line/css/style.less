@@ -1,0 +1,28 @@
+.box {
+  background-color: #fff;
+}
+path {
+  stroke: white;
+  stroke-width: 6;
+  stroke-dasharray: 6488;
+  stroke-dashoffset: 6488;
+  animation: draw 13s linear forwards;
+}
+@keyframes draw {
+  20% {
+    stroke: orange;
+  }
+  40% {
+    stroke: red;
+  }
+  60% {
+    stroke: indigo;
+  }
+  80% {
+    stroke: blue;
+  }
+  100% {
+    stroke: violet;
+    stroke-dashoffset: 0;
+  }
+}
